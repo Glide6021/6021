@@ -12,14 +12,7 @@ import psutil
 import sounddevice as sd
 from pycaw.pycaw import AudioUtilities
 
-# ========== 你的API密钥配置 ==========
-SILICONFLOW_API_KEY = "sk-ttntybdztnyafubffyqeiozobvkmyzgynvwtemcewrfasmhe"
-OPENROUTER_API_KEY = "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"
-MODEL_SILICONFLOW = "Qwen/Qwen3-8B"
-MODEL_OPENROUTER = "deepseek/deepseek-r1:free"
-
-# 默认平台（1=SiliconFlow, 2=OpenRouter）
-current_platform = 1
+# ========== 你的API密钥配置 =====1
 
 # ========== 语音引擎初始化 ==========
 engine = pyttsx3.init()
